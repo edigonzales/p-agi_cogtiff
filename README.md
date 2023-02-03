@@ -18,20 +18,35 @@ multipass stop cogtiff
 ## ch.bl.agi.lidar_2018.dsm_hillshade
 
 ```
+sftp anonymous@sftp.geo.so.ch
+```
+
+```
+scp root@5.75.153.138:geodata/ch.so.agi.orthofoto_2017.rgb/aktuell/ch.so.agi.orthofoto_2017.rgb.tif .
+```
+
+```
 gdalbuildvrt -addalpha ch.bl.agi.lidar_2018.dsm_hillshade.vrt *.tif
-```
-
-```
-gdal_translate ch.bl.agi.lidar_2018.dsm_hillshade.vrt ch.bl.agi.lidar_2018.dsm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE 
-
+(gdal_translate ch.bl.agi.lidar_2018.dsm_hillshade.vrt ch.bl.agi.lidar_2018.dsm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE) 
 gdal_translate ch.bl.agi.lidar_2018.dsm_hillshade.vrt ch.bl.agi.lidar_2018.dsm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
-gdal_translate ch.bl.agi.lidar_2018.dsm_hillshade.vrt ch.bl.agi.lidar_2018.dsm_hillshade.tif -of COG -co COMPRESS=JPEG -co BIGTIFF=YES
-
 ```
 
 ```
 gdalbuildvrt -addalpha ch.so.agi.orthofoto_2017.rgb.vrt *.tif
-
 gdal_translate ch.so.agi.orthofoto_2017.rgb.vrt ch.so.agi.orthofoto_2017.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_1993.grau.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_1993.grau.vrt ch.so.agi.orthofoto_1993.grau.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+
+scp root@5.75.153.138:geodata/ch.so.agi.orthofoto_1993.grau/aktuell/ch.so.agi.orthofoto_1993.grau.tif .
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2002.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2002.rgb.vrt ch.so.agi.orthofoto_2002.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+
+scp root@5.75.153.138:geodata/ch.so.agi.orthofoto_2002.rgb/aktuell/ch.so.agi.orthofoto_2002.rgb.tif .
 ```
