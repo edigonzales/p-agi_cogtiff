@@ -4,7 +4,7 @@
 You can use Multipass for using Ubuntu as development environment:
 
 ```
-multipass launch jammy --cpus 4 --disk 20G --mem 16G --name cogtiff
+multipass launch jammy --cpus 4 --disk 50G --mem 16G --name cogtiff
 multipass mount /Users/stefan/tmp/geodata cogtiff:/home/ubuntu/geodata
 multipass shell cogtiff
 
@@ -24,6 +24,7 @@ gdalbuildvrt -addalpha ch.bl.agi.lidar_2018.dsm_hillshade.vrt *.tif
 ```
 gdal_translate ch.bl.agi.lidar_2018.dsm_hillshade.vrt ch.bl.agi.lidar_2018.dsm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE 
 
-gdal_translate ch.bl.agi.lidar_2018.dsm_hillshade.vrt ch.bl.agi.lidar_2018.dsm_hillshad.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG 
+gdal_translate ch.bl.agi.lidar_2018.dsm_hillshade.vrt ch.bl.agi.lidar_2018.dsm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG 
+gdal_translate ch.bl.agi.lidar_2018.dsm_hillshade.vrt ch.bl.agi.lidar_2018.dsm_hillshade.tif -of COG -co COMPRESS=JPEG 
 
 ```
