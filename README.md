@@ -50,3 +50,27 @@ gdal_translate ch.so.agi.orthofoto_2002.rgb.vrt ch.so.agi.orthofoto_2002.rgb.tif
 
 scp root@5.75.153.138:geodata/ch.so.agi.orthofoto_2002.rgb/aktuell/ch.so.agi.orthofoto_2002.rgb.tif .
 ```
+
+
+```
+gdalbuildvrt -addalpha ch.bl.agi.orthofoto_2015.rgb.vrt aktuell/*.tif
+gdal_translate ch.bl.agi.orthofoto_2015.rgb.vrt ch.bl.agi.orthofoto_2015.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+
+scp root@167.235.59.146:ch.bl.agi.orthofoto_2015/aktuell/cogtiff/ch.bl.agi.lidar_2018.dsm.vrt .
+
+```
+
+
+
+```
+gdalbuildvrt ch.bl.agi.lidar_2018.dsm.vrt *.tif
+gdal_translate ch.bl.agi.lidar_2018.dsm.vrt ch.bl.agi.lidar_2018.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+
+```
+
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2006.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2006.rgb.vrt ch.so.agi.orthofoto_2006.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+
+```
