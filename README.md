@@ -19,6 +19,7 @@ multipass stop cogtiff
 
 ```
 sftp anonymous@sftp.geo.so.ch
+lftp anonymous:anonymous@sftp.geo.so.ch -e "cd anonymous"
 ```
 
 ```
@@ -83,5 +84,32 @@ gdal_translate ch.so.agi.orthofoto_2007.rgb.vrt ch.so.agi.orthofoto_2007.rgb.tif
 
 ```
 gdalbuildvrt ch.bl.agi.lidar_2018.dtm.vrt *.tif
+gdal_translate ch.bl.agi.lidar_2018.dtmvrt ch.bl.agi.lidar_2018.dtm.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
 ```
+gdalbuildvrt ch.bl.agi.lidar_2018.dtm_hillshade.vrt *.tif
+gdal_translate ch.bl.agi.lidar_2018.dtm_hillshade.vrt ch.bl.agi.lidar_2018.dtm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+
+```
+gdalbuildvrt ch.bl.agi.lidar_2018.dtm_slope.vrt *.tif
+gdal_translate ch.bl.agi.lidar_2018.dtm_slope.vrt ch.bl.agi.lidar_2018.dtm_slope.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt ch.bl.agi.lidar_2018.ndsm_buildings.vrt *.tif
+nohup gdal_translate ch.bl.agi.lidar_2018.ndsm_buildings.vrt ch.bl.agi.lidar_2018.ndsm_buildings.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt ch.bl.agi.lidar_2018.ndsm_vegetation.vrt *.tif
+nohup gdal_translate ch.bl.agi.lidar_2018.ndsm_vegetation.vrt ch.bl.agi.lidar_2018.ndsm_vegetation.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+
+
+## todo:
+
+- rename ch.bl.agi.lidar_2018.tif
