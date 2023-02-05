@@ -74,3 +74,14 @@ gdalbuildvrt -addalpha ch.so.agi.orthofoto_2006.rgb.vrt *.tif
 gdal_translate ch.so.agi.orthofoto_2006.rgb.vrt ch.so.agi.orthofoto_2006.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 
 ```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2007.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2007.rgb.vrt ch.so.agi.orthofoto_2007.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+
+```
+
+```
+gdalbuildvrt ch.bl.agi.lidar_2018.dtm.vrt *.tif
+
+```
