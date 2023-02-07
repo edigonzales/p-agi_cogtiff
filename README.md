@@ -175,8 +175,70 @@ gdalbuildvrt ch.so.agi.lidar_2019.ndsm_vegetation.vrt *.tif
 gdal_translate ch.so.agi.lidar_2019.ndsm_vegetation.vrt ch.so.agi.lidar_2019.ndsm_vegetation.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2011.cir.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2011.cir.vrt ch.so.agi.orthofoto_2011.cir.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2011.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2011.rgb.vrt ch.so.agi.orthofoto_2011.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2012.cir.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2012.cir.vrt ch.so.agi.orthofoto_2012.cir.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2012.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2012.rgb.vrt ch.so.agi.orthofoto_2012.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2013.cir.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2013.cir.vrt ch.so.agi.orthofoto_2013.cir.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2013.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2013.rgb.vrt ch.so.agi.orthofoto_2013.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2014.cir.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2014.cir.vrt ch.so.agi.orthofoto_2014.cir.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2014.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2014.rgb.vrt ch.so.agi.orthofoto_2014.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2015.cir.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2015.cir.vrt ch.so.agi.orthofoto_2015.cir.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2015.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2015.rgb.vrt ch.so.agi.orthofoto_2015.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2016.cir.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2016.cir.vrt ch.so.agi.orthofoto_2016.cir.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2016.rgb.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2016.rgb.vrt ch.so.agi.orthofoto_2016.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.so.agi.orthofoto_2017.cir.vrt *.tif
+gdal_translate ch.so.agi.orthofoto_2017.cir.vrt ch.so.agi.orthofoto_2017.cir.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
 
 ## todo:
