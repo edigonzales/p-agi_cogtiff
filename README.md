@@ -241,4 +241,24 @@ gdal_translate ch.so.agi.orthofoto_2017.cir.vrt ch.so.agi.orthofoto_2017.cir.tif
 ```
 
 
+```
+gdalbuildvrt -addalpha ch.swisstopo.swissimage_2021.rgb.vrt *.tif
+nohup gdal_translate ch.swisstopo.swissimage_2021.rgb.vrt ch.swisstopo.swissimage_2021.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE &
+```
+
+```
+gdalbuildvrt -addalpha ch.swisstopo.swissimage_2018.rgb.vrt *.tif
+nohup gdal_translate ch.swisstopo.swissimage_2018.rgb.vrt ch.swisstopo.swissimage_2018.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE &
+```
+
+```
+gdalbuildvrt -addalpha ch.swisstopo.swissimage_2015.rgb.vrt *.tif
+nohup gdal_translate ch.swisstopo.swissimage_2015.rgb.vrt ch.swisstopo.swissimage_2015.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE &
+```
+
+```
+gdalbuildvrt -addalpha ch.swisstopo.satellitenbilder_2015_04.rgb.vrt *.tif
+nohup gdal_translate ch.swisstopo.satellitenbilder_2015_04.rgb.vrt ch.swisstopo.satellitenbilder_2015_04.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE &
+```
+
 ## todo:
