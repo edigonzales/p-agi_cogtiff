@@ -374,7 +374,55 @@ gdalbuildvrt -addalpha ch.swisstopo.lk1000.grau_relief.vrt *.tif
 gdal_translate ch.swisstopo.lk1000.grau_relief.vrt ch.swisstopo.lk1000.grau_relief.tif  -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
+```
+gdalbuildvrt -addalpha ch.swisstopo.dom_2001.gradientenbilder.vrt *.tif
+gdal_translate ch.swisstopo.dom_2001.gradientenbilder.vrt ch.swisstopo.dom_2001.gradientenbilder.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
+```
+gdalbuildvrt ch.swisstopo.dom_2001.schattenbilder.vrt *.tif
+gdal_translate ch.swisstopo.dom_2001.schattenbilder.vrt ch.swisstopo.dom_2001.schattenbilder.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt  -addalpha ch.swisstopo.dtm-av_2001.bpav_schattenbilder.vrt *.tif
+gdal_translate ch.swisstopo.dtm-av_2001.bpav_schattenbilder.vrt ch.swisstopo.dtm-av_2001.bpav_schattenbilder.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt ch.swisstopo.dtm-av_2001.dtm.vrt *.tif
+gdal_translate ch.swisstopo.dtm-av_2001.dtm.vrt ch.swisstopo.dtm-av_2001.dtm.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.swisstopo.dtm-av_2001.gradientenbilder.vrt *.tif
+gdal_translate ch.swisstopo.dtm-av_2001.gradientenbilder.vrt ch.swisstopo.dtm-av_2001.gradientenbilder.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt ch.swisstopo.dtm_2001.schattenbilder.vrt *.tif
+gdal_translate ch.swisstopo.dtm_2001.schattenbilder.vrt ch.swisstopo.dtm_2001.schattenbilder.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+
+```
+gdalbuildvrt ch.swisstopo.dufourkarte.vrt *.tif
+gdal_translate ch.swisstopo.dufourkarte.vrt ch.swisstopo.dufourkarte.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdal_translate LandsatMos25.tif ch.swisstopo.landsat.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+
+```
+gdal_translate ch.swisstopo.sentinel_2018.tif ch.swisstopo.sentinel_2018_cog.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.swisstopo.siegfriedkarte.vrt *.tif
+gdal_translate ch.swisstopo.siegfriedkarte.vrt ch.swisstopo.siegfriedkarte.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
 ## todo:
 
