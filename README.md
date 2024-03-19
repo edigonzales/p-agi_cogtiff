@@ -94,12 +94,12 @@ gdal_translate ch.bl.agi.lidar_2018.dtm_slope.vrt ch.bl.agi.lidar_2018.dtm_slope
 ```
 
 ```
-gdalbuildvrt ch.bl.agi.lidar_2018.ndsm_buildings.vrt *.tif
+gdalbuildvrt -vrtnodata -9999 ch.bl.agi.lidar_2018.ndsm_buildings.vrt *.tif
 nohup gdal_translate ch.bl.agi.lidar_2018.ndsm_buildings.vrt ch.bl.agi.lidar_2018.ndsm_buildings.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 ```
-gdalbuildvrt ch.bl.agi.lidar_2018.ndsm_vegetation.vrt *.tif
+gdalbuildvrt -vrtnodata -9999 ch.bl.agi.lidar_2018.ndsm_vegetation.vrt *.tif
 nohup gdal_translate ch.bl.agi.lidar_2018.ndsm_vegetation.vrt ch.bl.agi.lidar_2018.ndsm_vegetation.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
@@ -130,7 +130,7 @@ gdal_translate ch.so.agi.lidar_2014.dtm_hillshade.vrt ch.so.agi.lidar_2014_hills
 ```
 
 ```
-gdalbuildvrt ch.so.agi.lidar_2014.dtm_slope.vrt *.tif
+gdalbuildvrt -vrtnodata -9999 ch.so.agi.lidar_2014.dtm_slope.vrt *.tif
 gdal_translate ch.so.agi.lidar_2014.dtm_slope.vrt ch.so.agi.lidar_2014_slope.dtm.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
@@ -160,18 +160,26 @@ gdal_translate ch.so.agi.lidar_2019.dtm_hillshade.vrt ch.so.agi.lidar_2019.dtm_h
 ```
 
 ```
-gdalbuildvrt ch.so.agi.lidar_2019.dtm_slope.vrt *.tif
+gdalbuildvrt -addalpha ch.so.agi.lidar_2019.dtm_slope.vrt *.tif
+
+Im VRT den dataType="Byte" zu Float32 ändern. GDAL kann keine Overviews mit unterschiedlichen Bändern rechnen.
+
+gdal_translate ch.so.agi.lidar_2019.dtm_slope.vrt ch.so.agi.lidar_2019.dtm_slope.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+
+ODER
+
+gdalbuildvrt -vrtnodata -9999 ch.so.agi.lidar_2019.dtm_slope.vrt *.tif
 gdal_translate ch.so.agi.lidar_2019.dtm_slope.vrt ch.so.agi.lidar_2019.dtm_slope.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 
 ```
-gdalbuildvrt ch.so.agi.lidar_2019.ndsm_buildings.vrt *.tif
+gdalbuildvrt -vrtnodata -9999 ch.so.agi.lidar_2019.ndsm_buildings.vrt *.tif
 gdal_translate ch.so.agi.lidar_2019.ndsm_buildings.vrt ch.so.agi.lidar_2019.ndsm_buildings.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 ```
-gdalbuildvrt ch.so.agi.lidar_2019.ndsm_vegetation.vrt *.tif
+gdalbuildvrt -vrtnodata -9999 ch.so.agi.lidar_2019.ndsm_vegetation.vrt *.tif
 gdal_translate ch.so.agi.lidar_2019.ndsm_vegetation.vrt ch.so.agi.lidar_2019.ndsm_vegetation.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
@@ -268,8 +276,6 @@ gdal_translate walker_1832.tif ch.so.agi.walkerkarte_1832.tif -of COG -co NUM_TH
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk10.farbig_relief.vrt *.tif
 nohup gdal_translate ch.swisstopo.lk10.farbig_relief.vrt ch.swisstopo.lk10.farbig_relief.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE &
-
-
 ```
 
 
@@ -385,7 +391,7 @@ gdal_translate ch.swisstopo.dom_2001.schattenbilder.vrt ch.swisstopo.dom_2001.sc
 ```
 
 ```
-gdalbuildvrt  -addalpha ch.swisstopo.dtm-av_2001.bpav_schattenbilder.vrt *.tif
+gdalbuildvrt -addalpha ch.swisstopo.dtm-av_2001.bpav_schattenbilder.vrt *.tif
 gdal_translate ch.swisstopo.dtm-av_2001.bpav_schattenbilder.vrt ch.swisstopo.dtm-av_2001.bpav_schattenbilder.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
