@@ -429,6 +429,43 @@ gdal_translate ch.swisstopo.sentinel_2018.tif ch.swisstopo.sentinel_2018_cog.tif
 gdalbuildvrt -addalpha ch.swisstopo.siegfriedkarte.vrt *.tif
 gdal_translate ch.swisstopo.siegfriedkarte.vrt ch.swisstopo.siegfriedkarte.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
+------------------------------------
+
+```
+gdalbuildvrt ch.swisstopo.lidar_2023.dsm.vrt *.tif
+gdal_translate ch.swisstopo.lidar_2023.dsm.vrt ch.swisstopo.lidar_2023.dsm.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.swisstopo.lidar_2023.dsm_hillshade.vrt *.tif
+gdal_translate ch.swisstopo.lidar_2023.dsm_hillshade.vrt ch.swisstopo.lidar_2023.dsm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt ch.swisstopo.lidar_2023.dtm.vrt *.tif
+gdal_translate ch.swisstopo.lidar_2023.dtm.vrt ch.swisstopo.lidar_2023.dtm.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -addalpha ch.swisstopo.lidar_2023.dtm_hillshade.vrt *.tif
+gdal_translate ch.swisstopo.lidar_2023.dtm_hillshade.vrt ch.swisstopo.lidar_2023.dtm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -vrtnodata -9999 ch.swisstopo.lidar_2023.ndsm_buildings.vrt *.tif
+gdal_translate ch.swisstopo.lidar_2023.ndsm_buildings.vrt ch.swisstopo.lidar_2023.ndsm_buildings.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt -vrtnodata -9999 ch.swisstopo.lidar_2023.ndsm_vegetation.vrt *.tif
+gdal_translate ch.swisstopo.lidar_2023.ndsm_vegetation.vrt ch.swisstopo.lidar_2023.ndsm_vegetation.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+
+```
+gdalbuildvrt -vrtnodata -9999 ch.swisstopo.lidar_2023.dtm_slope.vrt *.tif
+gdal_translate ch.swisstopo.lidar_2023.dtm_slope.vrt ch.swisstopo.lidar_2023.dtm_slope.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
 ## todo:
 
