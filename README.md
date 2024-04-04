@@ -275,7 +275,12 @@ gdal_translate walker_1832.tif ch.so.agi.walkerkarte_1832.tif -of COG -co NUM_TH
 
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk10.farbig_relief.vrt *.tif
-nohup gdal_translate ch.swisstopo.lk10.farbig_relief.vrt ch.swisstopo.lk10.farbig_relief.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE &
+
+gdal_translate ch.swisstopo.lk10.farbig_relief.vrt ch.swisstopo.lk10.farbig_relief_average.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE 
+
+gdal_translate ch.swisstopo.lk10.farbig_relief.vrt /Volumes/T7/ch.swisstopo.lk10.farbig_relief/ch.swisstopo.lk10.farbig_relief_bilinear.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=BILINEAR 
+
+gdal_translate ch.swisstopo.lk10.farbig_relief.vrt /Volumes/T7/ch.swisstopo.lk10.farbig_relief/ch.swisstopo.lk10.farbig_relief_cubic.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=CUBIC 
 ```
 
 
@@ -286,7 +291,7 @@ gdal_translate ch.swisstopo.lk10.grau_relief.vrt ch.swisstopo.lk10.grau_relief.t
 
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk25.farbig.vrt *.tif
-gdal_translate ch.swisstopo.lk25.farbig.vrt ch.swisstopo.lk25.farbig.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+gdal_translate ch.swisstopo.lk25.farbig.vrt ch.swisstopo.lk25.farbig.tif -expand RGBA -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 ```
@@ -296,7 +301,7 @@ gdal_translate ch.swisstopo.lk25.farbig_relief.vrt ch.swisstopo.lk25.farbig_reli
 
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk25.grau.vrt *.tif
-gdal_translate ch.swisstopo.lk25.grau.vrt ch.swisstopo.lk25.grau.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+gdal_translate ch.swisstopo.lk25.grau.vrt ch.swisstopo.lk25.grau.tif -expand RGBA -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 ```
@@ -367,7 +372,7 @@ gdal_translate ch.swisstopo.lk1000.farbig.vrt ch.swisstopo.lk1000.farbig.tif -ex
 
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk1000.farbig_relief.vrt *.tif
-gdal_translate ch.swisstopo.lk1000.farbig_relief.vrt ch.swisstopo.lk1000.farbig_relief.tif  -expand RGB -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+gdal_translate ch.swisstopo.lk1000.farbig_relief.vrt ch.swisstopo.lk1000.farbig_relief.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 ```

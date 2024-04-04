@@ -1,0 +1,1156 @@
+<VRTDataset rasterXSize="122500" rasterYSize="108000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["CH1903+ / LV95",GEOGCS["CH1903+",DATUM["CH1903+",SPHEROID["Bessel 1841",6377397.155,299.1528128,AUTHORITY["EPSG","7004"]],AUTHORITY["EPSG","6150"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4150"]],PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"],PARAMETER["latitude_of_center",46.9524055555556],PARAMETER["longitude_of_center",7.43958333333333],PARAMETER["azimuth",90],PARAMETER["rectified_grid_angle",90],PARAMETER["scale_factor",1],PARAMETER["false_easting",2600000],PARAMETER["false_northing",1200000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","2056"]]</SRS>
+  <GeoTransform>  2.5850000000000000e+06,  5.0000000000000000e-01,  0.0000000000000000e+00,  1.2660000000000000e+06,  0.0000000000000000e+00, -5.0000000000000000e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1066-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1066-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1068-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1069-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1086-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1086-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1089-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1089-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1106-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="0" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1106-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1109-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1126-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="0" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1126-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1146-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="96000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1147-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="96000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1066-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1066-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1068-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1069-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1086-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1086-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1089-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1089-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1106-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="0" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1106-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1109-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1126-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="0" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1126-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1146-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="96000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1147-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="96000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1066-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1066-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="0" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1068-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1069-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="12000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1086-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1086-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1089-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="24000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1089-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="36000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1106-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="0" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1106-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="60000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1109-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="48000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1126-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="0" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1126-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="72000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="84000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1146-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="96000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1147-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="96000" xSize="17500" ySize="12000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4">
+    <ColorInterp>Alpha</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1066-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="0" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1066-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="12000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="0" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="0" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="12000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1067-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="12000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1068-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="12000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1069-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="12000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1086-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="24000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1086-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="36000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="24000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="24000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="36000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1087-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="36000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="24000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="36000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1088-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="36000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1089-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="24000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1089-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="36000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1106-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="0" yOff="60000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1106-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="60000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="48000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="48000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="60000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1107-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="60000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="48000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="48000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="70000" yOff="60000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1108-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="87500" yOff="60000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1109-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="105000" yOff="48000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1126-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="0" yOff="72000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1126-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="84000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="72000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="72000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-3_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="84000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1127-4_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="52500" yOff="84000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1146-2_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="17500" yOff="96000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster10_2023_1147-1_krel_0.5_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17500" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="17500" ySize="12000" />
+      <DstRect xOff="35000" yOff="96000" xSize="17500" ySize="12000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

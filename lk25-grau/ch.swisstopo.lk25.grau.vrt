@@ -1,0 +1,509 @@
+<VRTDataset rasterXSize="56000" rasterYSize="48000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["CH1903+ / LV95",GEOGCS["CH1903+",DATUM["CH1903+",SPHEROID["Bessel 1841",6377397.155,299.1528128,AUTHORITY["EPSG","7004"]],AUTHORITY["EPSG","6150"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4150"]],PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"],PARAMETER["latitude_of_center",46.9524055555556],PARAMETER["longitude_of_center",7.43958333333333],PARAMETER["azimuth",90],PARAMETER["rectified_grid_angle",90],PARAMETER["scale_factor",1],PARAMETER["false_easting",2600000],PARAMETER["false_northing",1200000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","2056"]]</SRS>
+  <GeoTransform>  2.5850000000000000e+06,  1.2500000000000000e+00,  0.0000000000000000e+00,  1.2660000000000000e+06,  0.0000000000000000e+00, -1.2500000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Palette</ColorInterp>
+    <ColorTable>
+      <Entry c1="0" c2="0" c3="0" c4="255" />
+      <Entry c1="255" c2="255" c3="255" c4="255" />
+      <Entry c1="244" c2="244" c3="244" c4="255" />
+      <Entry c1="231" c2="231" c3="231" c4="255" />
+      <Entry c1="211" c2="211" c3="211" c4="255" />
+      <Entry c1="202" c2="202" c3="203" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="197" c2="197" c3="197" c4="255" />
+      <Entry c1="167" c2="167" c3="167" c4="255" />
+      <Entry c1="163" c2="163" c3="163" c4="255" />
+      <Entry c1="158" c2="158" c3="158" c4="255" />
+      <Entry c1="209" c2="209" c3="209" c4="255" />
+      <Entry c1="179" c2="179" c3="179" c4="255" />
+      <Entry c1="179" c2="179" c3="180" c4="255" />
+      <Entry c1="143" c2="143" c3="143" c4="255" />
+      <Entry c1="141" c2="141" c3="141" c4="255" />
+      <Entry c1="138" c2="138" c3="138" c4="255" />
+      <Entry c1="252" c2="252" c3="252" c4="255" />
+      <Entry c1="248" c2="248" c3="248" c4="255" />
+      <Entry c1="106" c2="106" c3="106" c4="255" />
+      <Entry c1="103" c2="103" c3="103" c4="255" />
+      <Entry c1="100" c2="100" c3="100" c4="255" />
+      <Entry c1="98" c2="98" c3="98" c4="255" />
+      <Entry c1="94" c2="94" c3="94" c4="255" />
+      <Entry c1="62" c2="62" c3="62" c4="255" />
+      <Entry c1="1" c2="0" c3="0" c4="255" />
+      <Entry c1="62" c2="62" c3="63" c4="255" />
+      <Entry c1="62" c2="63" c3="62" c4="255" />
+      <Entry c1="0" c2="0" c3="1" c4="255" />
+      <Entry c1="1" c2="1" c3="0" c4="255" />
+      <Entry c1="1" c2="0" c3="1" c4="255" />
+      <Entry c1="0" c2="1" c3="1" c4="255" />
+      <Entry c1="255" c2="255" c3="254" c4="255" />
+      <Entry c1="255" c2="254" c3="255" c4="255" />
+      <Entry c1="254" c2="255" c3="255" c4="255" />
+      <Entry c1="255" c2="254" c3="254" c4="255" />
+      <Entry c1="254" c2="255" c3="254" c4="255" />
+      <Entry c1="254" c2="254" c3="255" c4="255" />
+      <Entry c1="202" c2="202" c3="202" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="150" c2="150" c3="150" c4="255" />
+      <Entry c1="255" c2="255" c3="255" c4="255" />
+    </ColorTable>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1066_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1067_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="14000" yOff="0" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1068_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="28000" yOff="0" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1069_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="42000" yOff="0" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1086_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="9600" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1087_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="14000" yOff="9600" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1088_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="28000" yOff="9600" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1089_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="42000" yOff="9600" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1106_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="19200" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1107_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="14000" yOff="19200" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1108_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="28000" yOff="19200" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1109_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="42000" yOff="19200" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1126_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="28800" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1127_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="14000" yOff="28800" xSize="14000" ySize="9600" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1146_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="38400" xSize="14000" ySize="9600" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Alpha</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1066_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1067_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="14000" yOff="0" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1068_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="28000" yOff="0" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1069_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="42000" yOff="0" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1086_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="9600" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1087_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="14000" yOff="9600" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1088_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="28000" yOff="9600" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1089_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="42000" yOff="9600" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1106_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="19200" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1107_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="14000" yOff="19200" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1108_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="28000" yOff="19200" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1109_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="42000" yOff="19200" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1126_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="28800" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1127_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="14000" yOff="28800" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">swiss-map-raster25_2021_1146_kgrs_1.25_2056.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14000" RasterYSize="9600" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="14000" ySize="9600" />
+      <DstRect xOff="0" yOff="38400" xSize="14000" ySize="9600" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32</OverviewList>
+</VRTDataset>
