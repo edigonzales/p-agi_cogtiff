@@ -321,7 +321,7 @@ gdal_translate ch.swisstopo.lk50.grau.vrt ch.swisstopo.lk50.grau.tif -expand RGB
 
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk100.farbig.vrt *.tif
-gdal_translate ch.swisstopo.lk100.farbig.vrt ch.swisstopo.lk100.farbig.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+gdal_translate ch.swisstopo.lk100.farbig.vrt ch.swisstopo.lk100.farbig.tif -expand RGBA -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 
@@ -332,7 +332,7 @@ gdal_translate ch.swisstopo.lk100.farbig_relief.vrt ch.swisstopo.lk100.farbig_re
 
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk100.grau.vrt *.tif
-gdal_translate ch.swisstopo.lk100.grau.vrt ch.swisstopo.lk100.grau.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+gdal_translate ch.swisstopo.lk100.grau.vrt ch.swisstopo.lk100.grau.tif -expand RGBA -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 ```
