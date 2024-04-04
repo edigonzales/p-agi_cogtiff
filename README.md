@@ -276,7 +276,7 @@ gdal_translate walker_1832.tif ch.so.agi.walkerkarte_1832.tif -of COG -co NUM_TH
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk10.farbig_relief.vrt *.tif
 
-gdal_translate ch.swisstopo.lk10.farbig_relief.vrt ch.swisstopo.lk10.farbig_relief_average.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE 
+gdal_translate ch.swisstopo.lk10.farbig_relief.vrt ch.swisstopo.lk10.farbig_relief.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE 
 
 gdal_translate ch.swisstopo.lk10.farbig_relief.vrt /Volumes/T7/ch.swisstopo.lk10.farbig_relief/ch.swisstopo.lk10.farbig_relief_bilinear.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=BILINEAR 
 
@@ -337,7 +337,7 @@ gdal_translate ch.swisstopo.lk100.grau.vrt ch.swisstopo.lk100.grau.tif -expand R
 
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk200.farbig.vrt *.tif
-gdal_translate ch.swisstopo.lk200.farbig.vrt ch.swisstopo.lk200.farbig.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+gdal_translate ch.swisstopo.lk200.farbig.vrt ch.swisstopo.lk200.farbig.tif -expand RGBA -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 ```
@@ -347,7 +347,7 @@ gdal_translate ch.swisstopo.lk200.farbig_relief.vrt ch.swisstopo.lk200.farbig_re
 
 ```
 gdalbuildvrt -addalpha ch.swisstopo.lk200.grau.vrt *.tif
-gdal_translate ch.swisstopo.lk200.grau.vrt ch.swisstopo.lk200.grau.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+gdal_translate ch.swisstopo.lk200.grau.vrt ch.swisstopo.lk200.grau.tif -expand RGBA -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
 ```
