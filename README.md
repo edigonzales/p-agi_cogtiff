@@ -472,5 +472,15 @@ gdalbuildvrt -vrtnodata -9999 ch.swisstopo.lidar_2023.dtm_slope.vrt *.tif
 gdal_translate ch.swisstopo.lidar_2023.dtm_slope.vrt ch.swisstopo.lidar_2023.dtm_slope.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
+```
+gdal_translate ch.so.afu.klimaanalyse.gebaeude_ist_10m.tif cog_ch.so.afu.klimaanalyse.gebaeude_ist_10m.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdal_translate ch.so.afu.klimaanalyse.kaltluftproduktionsrate_4uhr_ist.tif cog_ch.so.afu.klimaanalyse.kaltluftproduktionsrate_4uhr_ist.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+
+
 ## todo:
 
