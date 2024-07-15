@@ -480,6 +480,15 @@ gdal_translate ch.so.afu.klimaanalyse.gebaeude_ist_10m.tif cog_ch.so.afu.klimaan
 gdal_translate ch.so.afu.klimaanalyse.kaltluftproduktionsrate_4uhr_ist.tif cog_ch.so.afu.klimaanalyse.kaltluftproduktionsrate_4uhr_ist.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=NO -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
 ```
 
+```
+gdalbuildvrt -addalpha ch.so.agi.lidar_2023.dsm_hillshade.vrt *.tif
+gdal_translate ch.so.agi.lidar_2023.dsm_hillshade.vrt ch.so.agi.lidar_2023.dsm_hillshade.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
+
+```
+gdalbuildvrt ch.so.agi.lidar_2023.dsm.vrt *.tif
+gdal_translate ch.so.agi.lidar_2023.dsm.vrt ch.so.agi.lidar_2023.dsm.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=3 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE
+```
 
 
 ## todo:
