@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set source and destination directories
-SOURCE_DIR="/Users/stefan/tmp/swissalti3d/raw"          # Change this to your input directory
-DEST_DIR="/Users/stefan/tmp/swissalti3d/hillshade"           # Change this to your output directory
+SOURCE_DIR="/Users/stefan/tmp/dtm_2025/dtm"          # Change this to your input directory
+DEST_DIR="/Users/stefan/tmp/dtm_2025/dtm_hillshade"           # Change this to your output directory
 
 # Create destination directory if it doesn't exist
 mkdir -p "$DEST_DIR"
