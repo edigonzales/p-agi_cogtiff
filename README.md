@@ -495,5 +495,10 @@ gdalbuildvrt -addalpha ch.swisstopo.swissimage_2024.rgb.vrt *.tif
 nohup gdal_translate ch.swisstopo.swissimage_2024.rgb.vrt ch.swisstopo.swissimage_2024.rgb.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=JPEG -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE &
 ```
 
+```
+gdalbuildvrt -addalpha ch.so.agi.lidar_2023.dsm_skyviewfactor.vrt *.tif
+nohup gdal_translate ch.so.agi.lidar_2023.dsm_skyviewfactor.vrt ch.so.agi.lidar_2023.dsm_skyviewfactor.vrt.tif -of COG -co NUM_THREADS=ALL_CPUS -co COMPRESS=DEFLATE -co PREDICTOR=2 -co BIGTIFF=YES -co OVERVIEWS=IGNORE_EXISTING -co RESAMPLING=AVERAGE &
+```
+
 ## todo:
 
